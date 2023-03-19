@@ -1,3 +1,4 @@
+//Example model interface
 export interface IPokemon {
     name: string;
     url: string;
