@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { APIService } from '../shared/services/apiService';
 import { IPokemon } from '../shared/models';
 

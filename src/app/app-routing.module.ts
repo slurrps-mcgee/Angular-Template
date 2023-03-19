@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { HelpComponentComponent } from './help-component/help-component.component';
+import { HelpComponent } from './help/help.component';
 
 const routes: Routes = [
   {
@@ -16,7 +16,7 @@ const routes: Routes = [
   },
   {
     path: 'help',
-    component: HelpComponentComponent
+    component: HelpComponent
   }
 ];
 

@@ -7,14 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { APIService } from './shared/services/apiService';
-import { HelpComponentComponent } from './help-component/help-component.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   //Add Components
   declarations: [
     AppComponent,
     HomeComponent,
-    HelpComponentComponent
+    HelpComponent
   ],
   //Add Modules
   imports: [
